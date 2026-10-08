@@ -166,7 +166,7 @@ Let:
 ## Diagrams
 
 - `library_class_diagram.png` — Class relationships and responsibilities.
-- `library_borrow_sequence_diagram.png` — Borrow-book interaction flow.
+- `../../library_borrow_sequence_diagram.png` — Borrow-book interaction flow.
 
 ## Test Scenarios
 
