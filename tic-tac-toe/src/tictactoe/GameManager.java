@@ -1,3 +1,4 @@
+package tictactoe;
 public class GameManager {
     private Board board;
     private Player player1;

@@ -1,3 +1,4 @@
+package tictactoe;
 public class Main {
 
     private static GameManager createGame()
