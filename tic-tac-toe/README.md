@@ -34,7 +34,7 @@ Coordinates the game:
 
 ### Enums
 - `Symbol`: `X`, `O`, `EMPTY`
-- `GameState` (named `States` in the initial implementation): `IN_PROGRESS`, `WIN`, `DRAW`
+- `GameState` (named `VendingMachineState` in the initial implementation): `IN_PROGRESS`, `WIN`, `DRAW`
 
 ## Move flow
 1. Reject the move if the game has already ended.
@@ -87,7 +87,7 @@ The manual test harness covers:
 - `tictactoe_sequence_diagram.png`
 
 ## Potential improvements
-- Rename `States` to `GameState` and `playSymbol()` to `placeSymbol()` for clarity.
+- Rename `VendingMachineState` to `GameState` and `playSymbol()` to `placeSymbol()` for clarity.
 - Make immutable fields `final`.
 - Reject `null` and `Symbol.EMPTY` as move symbols.
 - Replace manual console checks with JUnit tests if this becomes a maintained project.
